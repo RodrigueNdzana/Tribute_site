@@ -1,8 +1,8 @@
-// When the user scrolls down 30px from the top of the document, show the button
+// When the user scrolls down 90px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
                       
 function scrollFunction() {
-  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+  if (document.body.scrollTop > 90 || document.documentElement.scrollTop > 90) {
     document.getElementById("myBtn").style.display = "block";
   } else {
     document.getElementById("myBtn").style.display = "none";

@@ -1,0 +1,142 @@
+html,body{
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+ ul{
+     
+    list-style: none;
+    
+}
+ul li  {
+    display: inline-block;
+    font-size: 37px;
+    padding: 19px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-stretch: expanded;
+      
+}
+ .menu ul li:nth-child(4){
+    float: right;
+}
+.menu ul li:nth-child(3){
+    float: right;
+}
+.menu li a{
+color: black;
+ text-decoration-line: none;
+}
+.menu a:hover{
+    color: red;
+     transform: scale(1.6);
+}
+
+ /*---Logo session---*/
+ picture img{
+    width: 15vh;
+    border-radius: 50%;
+    margin-left: 84vh;
+    position: fixed;
+    height: 92px;
+    margin-top: -102px;
+    z-index: 1;
+}
+.menu h2{
+    margin-top: -6vh;
+    color: white;
+    margin-left: 30em;
+}
+
+.menu{
+    background-color: gray;
+    position: fixed;
+    width: 100%;
+    height: 18vh;
+    margin-left: -8px;
+    margin-top: -234px;
+    z-index: 1;
+
+}
+picture img{
+    width: 15vh;
+    border-radius: 50%;
+    margin-left: 84vh;
+    position: fixed;
+    height: 92px;
+    margin-top: -222px;
+    z-index: 1;
+}
+
+/*-- Contact Form of the page css code--*/
+.ContactForm{
+   
+    width: 76%;
+    margin: 233px auto;
+    background-color: gray;
+    border: 1px solid white;
+    border-radius: 15px;
+    box-shadow: 4px 4px 4px 4px black;
+    height: 598px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.title h1{
+    text-align: center;
+}
+
+.txtb {
+    border: 2px solid #111627;
+    margin: 13px auto;
+    padding: 22px;
+    border-radius: 11px;
+    width: 56%;
+    height: 4%;
+
+}
+.btn{
+    width: 31%;
+    margin: auto;
+}
+
+txtb textarea {
+    width: 387px;
+    height: 21px;
+}
+.txtb label{
+    display: block;
+    text-align: left;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.txtb input,.txtb text area{
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 18px;
+    margin-top: 6px;
+}
+::placeholder{
+    color: white;
+    font-weight: bold;
+    word-spacing: 4px;
+}
+.send{
+    display: inline-block;
+    background-color: #c6d2f8;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 30px;
+    height: 59px;
+    cursor: pointer;
+}
+.txtb:hover,.btn::active{
+    background: #111627;
+}
+.send{
+    font-size: 53px;
+    margin: 1px;
+    color: red;
+    opacity:0.3;
+}

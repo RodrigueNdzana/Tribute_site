@@ -1,0 +1,44 @@
+<! DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <!--<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> -- >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!--  This allow the website to be used in the phone if we identifie the media quieries rule in  the CSS  --> 
+    <title> My tribute website</title>
+    <link href="CSS/gallery.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="css/mytribute.css"/>-- >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css"> <!---external link of my gallery script---->
+    <link href="https://fonts.googleapis.com/css?family=Libre+Franklin&display=swap" rel="stylesheet"> <!--Google font---->
+  </head>
+  <body>
+<!--- Navagation session -->
+    <div class="menu">
+      <nav>
+        <ul>
+          <li><a href="html/index.html">Home</a></li>
+          <li><a href=".titl">Achievement</a></li>
+          <li><a href=".history">History</a></li>
+          <li><a href=".Gallery">Gallery</a></li>
+        </ul>
+      </nav>
+      <header>
+         <h2 >The Father of the Nation</h2> <!--- Logo heading -->
+      </header>
+    </div>
+<!--- Logo image of nelson mandela -->
+    <picture>
+      <source media="(max:width:300px)" srcset="../Images/images.png">
+      <img src="Images/images.png" alt="" />
+    </picture>
+    <h1>Nelson MAndela pictures</h1>
+    <!--- image for the gallery -->
+
+    <img id="images" src="" alt="" />
+    
+   <p> <button id="picButton" onclick="clicked()"> View the images</button> </p>
+    <script src="javascript/Galleryslide.js"></script>
+     
+  </body>
+</html>
+
+  
